@@ -1,0 +1,11 @@
+{
+
+   "logger" :
+   {
+        "class" : "service\\logger",
+        "parameters" : ["@loglevels"],
+        "tags" : [
+            {"name" : "kernel.event", "event" : "onReady", "method" : "onReady"}
+        ]
+   }
+}
